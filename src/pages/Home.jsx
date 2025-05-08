@@ -40,7 +40,7 @@ export default function Home() {
           <a
             key={p.title}
             href={p.url}
-            className="block bg-background rounded-lg overflow-hidden shadow hover:shadow-lg transition"
+            className="block bg-background rounded-lg overflow-hidden shadow hover:shadow-gray-800 transition"
           >
             <img
               src={p.image}
