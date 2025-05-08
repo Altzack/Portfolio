@@ -2,11 +2,9 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <section className="text-center">
-      <h2 className="text-4xl font-bold mb-4">Welcome</h2>
-      <p className="text-sm text-gray-600 dark:text-gray-300">
-        Hi! I’m a software engineer specializing in React and JavaScript. Explore my projects below.
-      </p>
+    <section className="bg-surface p-8 rounded-lg shadow mb-8">
+      <h1 className="text-3xl font-bold mb-4">Welcome</h1>
+      <p className="text-secondary">This is a sleek dark-themed portfolio.</p>
     </section>
   );
 }

@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="bg-white dark:bg-gray-800 shadow-inner">
-      <div className="container mx-auto px-4 py-4 text-center text-sm text-gray-600 dark:text-gray-400">
+    <footer className="bg-background text-text text-center py-4">
+      <div className="container mx-auto text-sm text-secondary">
         &copy; {new Date().getFullYear()} My Name. All rights reserved.
       </div>
     </footer>
