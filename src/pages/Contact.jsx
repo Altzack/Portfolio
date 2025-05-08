@@ -7,7 +7,7 @@ export default function Contact() {
       <p className="text-secondary mb-4">Have a question or want to collaborate? Click below to email me directly:</p>
       <a
         href="mailto:altschulerzack@yahoo.com?subject=Contact%20from%20Portfolio"
-        className="inline-block bg-accent text-background px-4 py-2 rounded hover:opacity-90"
+        className="inline-block bg-gray-600 text-background px-4 py-2 rounded hover:opacity-90"
       >
         Email Me
       </a>

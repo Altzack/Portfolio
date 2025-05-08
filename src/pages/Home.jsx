@@ -26,7 +26,7 @@ export default function Home() {
         </p>
         <Link
           to="/projects"
-          className="inline-block bg-accent text-background px-6 py-3 rounded-full text-md font-medium hover:opacity-90 transition"
+          className="inline-block bg-gray-600 text-background px-6 py-3 rounded-full text-md font-medium hover:opacity-90 transition"
         >
           View My Work
         </Link>
