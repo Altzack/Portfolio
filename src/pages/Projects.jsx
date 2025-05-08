@@ -1,29 +1,11 @@
 import React from 'react';
-
+import cryptoPic from '../assets/crypto.png'
 const projects = [
   {
-    title: 'Aurora Dashboard',
-    description: 'A real-time data visualization dashboard with interactive charts.',
-    image: 'https://via.placeholder.com/400x200.png?text=Aurora+Dashboard',
-    url: '#',
-  },
-  {
-    title: 'Echo Chat App',
-    description: 'A sleek chat application featuring live messaging and themes.',
-    image: 'https://via.placeholder.com/400x200.png?text=Echo+Chat+App',
-    url: '#',
-  },
-  {
-    title: 'Nova Blog',
-    description: 'A markdown-powered blog platform with syntax highlighting.',
-    image: 'https://via.placeholder.com/400x200.png?text=Nova+Blog',
-    url: '#',
-  },
-  {
-    title: 'Luma E-commerce',
-    description: 'A modern online store with smooth animations and cart flow.',
-    image: 'https://via.placeholder.com/400x200.png?text=Luma+E-commerce',
-    url: '#',
+    title: 'Crypto Tracker',
+    description: 'A real-time crypto tracker with interactive charts.',
+    image: cryptoPic,
+    url: 'https://cryptotrack-eight.vercel.app'
   },
 ];
 
