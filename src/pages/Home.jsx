@@ -19,14 +19,14 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="bg-gray-900 p-16 rounded-lg shadow mb-12 text-center">
+      <section className="p-16 rounded-lg shadow mb-12 text-center">
         <h1 className="text-5xl font-bold text-text mb-4">Hey, I'm Zack Altschuler</h1>
         <p className="text-secondary text-lg mb-6">
-          I’m a software engineer specializing in React and modern JavaScript frameworks. I build sleek, performant web applications.
+          I’m a software engineer specializing in React and modern JavaScript frameworks.
         </p>
         <Link
           to="/projects"
-          className="inline-block bg-gray-600 text-background px-6 py-3 rounded-full text-md font-medium hover:opacity-90 transition"
+          className="inline-block bg-green-500 text-background px-6 py-3 rounded-full text-md font-medium hover:opacity-90 transition"
         >
           View My Work
         </Link>
@@ -60,10 +60,10 @@ export default function Home() {
       <section>
         <h2 className="text-3xl font-semibold text-text mb-6">Skills</h2>
         <div className="flex flex-wrap gap-4">
-          {['React', 'JavaScript', 'Tailwind CSS', 'Node.js', 'TypeScript'].map((skill) => (
+          {['React', 'JavaScript', 'Tailwind CSS', 'TypeScript'].map((skill) => (
             <span
               key={skill}
-              className="bg-gray-600 px-4 py-2 rounded-full text-secondary text-sm"
+              className="bg-gray-500 px-4 py-2 rounded-full text-secondary text-sm"
             >
               {skill}
             </span>

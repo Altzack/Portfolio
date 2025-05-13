@@ -4,6 +4,6 @@
 @tailwind utilities;
 
 body {
-  background-color: #121212; /* background */
-  color:            #EDEDED; /* text */
+  background-color: #121212; 
+  color:            #EDEDED; 
 }
