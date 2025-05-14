@@ -13,7 +13,7 @@ export default function Contact() {
         {/* Email button */}
         <a
           href="mailto:altschulerzack@yahoo.com?subject=Contact%20from%20Portfolio"
-          className="inline-block bg-gray-500 text-background px-4 py-2 rounded hover:opacity-90"
+          className="inline-block bg-green-500 text-background px-4 py-2 rounded hover:opacity-90"
         >
           Email Me
         </a>
@@ -23,7 +23,7 @@ export default function Contact() {
           href="https://www.linkedin.com/in/zack-altschuler/"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center bg-gray-500 text-background px-4 py-2 rounded hover:opacity-90"
+          className="inline-flex items-center bg-green-500 text-background px-4 py-2 rounded hover:opacity-90"
         >
           <FaLinkedin className="mr-2" size={20} />
           LinkedIn
@@ -34,7 +34,7 @@ export default function Contact() {
           href="https://github.com/Altzack"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center bg-gray-500 text-background px-4 py-2 rounded hover:opacity-90"
+          className="inline-flex items-center bg-green-500 text-background px-4 py-2 rounded hover:opacity-90"
         >
           <FaGithub className="mr-2" size={20} />
           GitHub

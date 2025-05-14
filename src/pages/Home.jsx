@@ -33,7 +33,7 @@ export default function Home() {
           href="https://www.linkedin.com/in/zack-altschuler/"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex flex-col items-center p-6 bg-background rounded-lg hover:shadow-lg transition"
+          className="flex flex-col items-center p-6 bg-background rounded-lg transform transition-transform duration-300 hover:scale-110"
         >
           <FaLinkedin className="text-accent mb-4" size={48} style={{ color: '#0077B5' }}/>
           <h3 className="text-xl font-medium mb-2">LinkedIn</h3>
@@ -47,7 +47,7 @@ export default function Home() {
           href="https://github.com/Altzack"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex flex-col items-center p-6 bg-background rounded-lg hover:shadow-lg transition"
+          className="flex flex-col items-center p-6 bg-background rounded-lg transform transition-transform duration-300 hover:scale-110"
         >
           <FaGithub className="text-accent mb-4" size={48} />
           <h3 className="text-xl font-medium mb-2">GitHub</h3>
@@ -61,7 +61,7 @@ export default function Home() {
           href="/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex flex-col items-center p-6 bg-background rounded-lg hover:shadow-lg transition"
+          className="flex flex-col items-center p-6 bg-background rounded-lg transform transition-transform duration-300 hover:scale-110"
         >
           <FaFilePdf className="text-accent mb-4" size={48} style={{ color: '#E53E3E' }}/>
           <h3 className="text-xl font-medium mb-2">Resume</h3>
