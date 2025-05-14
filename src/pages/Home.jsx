@@ -1,18 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import cryptoPic from '../assets/crypto.png'
 
-
-
-const projects = [
-  {
-    title: 'Crypto Tracker',
-    description: 'A real-time crypto tracker with interactive charts.',
-    image: cryptoPic,
-    url: 'https://cryptotrack-eight.vercel.app'
-  },
-];
-
+import { FaLinkedin, FaGithub, FaFilePdf } from 'react-icons/fa';
 
 export default function Home() {
   
@@ -32,27 +21,54 @@ export default function Home() {
         </Link>
       </section>
 
-      {/* Featured Projects */}
-      <section className="bg-surface p-8 rounded-lg shadow mb-8">
-      <h2 className="text-2xl font-semibold mb-6">Featured Projects</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {projects.map((p) => (
-          <a
-            key={p.title}
-            href={p.url}
-            className="block bg-background rounded-lg overflow-hidden shadow hover:shadow-gray-800 transition"
-          >
-            <img
-              src={p.image}
-              alt={p.title}
-              className="w-full h-40 object-cover"
-            />
-            <div className="p-4">
-              <h3 className="text-xl font-bold text-text mb-2">{p.title}</h3>
-              <p className="text-secondary text-sm">{p.description}</p>
-            </div>
-          </a>
-        ))}
+      {/* Featured */}
+  <section className="bg-surface p-8 rounded-lg shadow mb-8">
+      <h2 className="text-3xl font-semibold mb-6 text-accent text-center">
+        Let’s Connect
+      </h2>
+
+      <div className="grid gap-6 sm:grid-cols-3">
+        {/* LinkedIn Card */}
+        <a
+          href="https://www.linkedin.com/in/zack-altschuler/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex flex-col items-center p-6 bg-background rounded-lg hover:shadow-lg transition"
+        >
+          <FaLinkedin className="text-accent mb-4" size={48} style={{ color: '#0077B5' }}/>
+          <h3 className="text-xl font-medium mb-2">LinkedIn</h3>
+          <p className="text-secondary text-center">
+            Check out my professional profile and endorsements.
+          </p>
+        </a>
+
+        {/* GitHub Card */}
+        <a
+          href="https://github.com/Altzack"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex flex-col items-center p-6 bg-background rounded-lg hover:shadow-lg transition"
+        >
+          <FaGithub className="text-accent mb-4" size={48} />
+          <h3 className="text-xl font-medium mb-2">GitHub</h3>
+          <p className="text-secondary text-center">
+            Browse my open-source projects and contributions.
+          </p>
+        </a>
+
+        {/* Resume Card */}
+        <a
+          href="/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex flex-col items-center p-6 bg-background rounded-lg hover:shadow-lg transition"
+        >
+          <FaFilePdf className="text-accent mb-4" size={48} style={{ color: '#E53E3E' }}/>
+          <h3 className="text-xl font-medium mb-2">Resume</h3>
+          <p className="text-secondary text-center">
+            Download my latest resume (PDF).
+          </p>
+        </a>
       </div>
     </section>
 
