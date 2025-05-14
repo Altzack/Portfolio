@@ -18,7 +18,7 @@ export default function Projects() {
           <a
             key={p.title}
             href={p.url}
-            className="block bg-background rounded-lg overflow-hidden shadow hover:shadow-gray-800 transition"
+            className="block bg-background rounded-lg overflow-hidden transform transition-transform duration-300 hover:scale-110"
           >
             <img
               src={p.image}
