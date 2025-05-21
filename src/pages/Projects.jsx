@@ -1,5 +1,6 @@
 import React from 'react';
 import cryptoPic from '../assets/crypto.png'
+import trustfam from '../assets/trustfam.png'
 const projects = [
   {
     title: 'Crypto Tracker',
@@ -7,6 +8,12 @@ const projects = [
     image: cryptoPic,
     url: 'https://cryptotrack-eight.vercel.app'
   },
+  {
+    title: "Trust Fam",
+    description: "Find the latest movies and shows.",
+    image: trustfam,
+    url: "https://trustfam.netlify.app/"
+  }
 ];
 
 export default function Projects() {
