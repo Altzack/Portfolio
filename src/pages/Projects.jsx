@@ -3,13 +3,13 @@ import cryptoPic from '../assets/crypto.png'
 import trustfam from '../assets/trustfam.png'
 const projects = [
   {
-    title: 'Crypto Tracker',
+    title: 'CryptoTrack',
     description: 'A real-time crypto tracker with interactive charts.',
     image: cryptoPic,
     url: 'https://cryptotrack-eight.vercel.app'
   },
   {
-    title: "Trust Fam",
+    title: "MovieGeek",
     description: "Find the latest movies and shows.",
     image: trustfam,
     url: "https://trustfam.netlify.app/"
