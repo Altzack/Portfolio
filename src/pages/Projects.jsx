@@ -2,8 +2,16 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import cryptoPic from "../assets/crypto.png";
 import trustfam from "../assets/trustfam.png";
+import glasspass from "../assets/glasspass.png";
 
 const projects = [
+  {
+    title: "GlassPass",
+    description:
+      "The largest online glass marketplace in the world. Helped scale to over 100,000 users and process over $10 million in transactions.",
+    image: glasspass,
+    url: "https://glasspass.com/",
+  },
   {
     title: "CryptoTrack",
     description:
