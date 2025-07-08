@@ -1,26 +1,33 @@
-import React from 'react';
+import React from "react";
 
 export default function About() {
   return (
     <section className="bg-surface p-8 rounded-lg shadow mb-8">
-
       <div className="max-w-2xl mx-auto space-y-6 text-text leading-relaxed">
-              <h2 className="text-3xl font-semibold mb-6 text-accent">About Me</h2>
+        <h2 className="text-3xl font-semibold mb-6 text-accent">About Me</h2>
 
         <p>
-          Hey there! I’m a software developer with a passion for front-end work—taking ideas
-          from a blank screen all the way to a smooth, interactive experience. I love being
-          creative, whether it’s drawing up a playful animation or finding just the right shade
-          of color to guide a user’s eye.
+          I’m a full-stack engineer with 5 years of experience shipping React,
+          GraphQL, and TypeScript applications with a strong focus on front-end
+          polish and performance. I thrive on translating design into
+          production-quality code: building component systems, optimizing load
+          times, and delivering responsive UIs that users can rely on. I’ve
+          helped platforms scale from 30K to 100K+ users, and I’m always
+          thinking about both the dev experience and the end user. You can find
+          me refining flows, squashing bugs, and tweaking pixel spacing until
+          it’s just right.
         </p>
 
-   
+        <h2 className="text-3xl font-semibold mb-6 text-accent">
+          Beyond the Code
+        </h2>
 
         <p>
-          At the end of the day, I want my work to look great, yes—but even more, I want it to
-          work flawlessly. I’m all about crafting interfaces that feel intuitive, load quickly,
-          and leave users satisfied. Let’s build something awesome
-          together!
+          When I’m not tweaking pixel spacing or untangling state bugs, I’m
+          probably debating whether to refactor something that technically works
+          just fine. I enjoy good UI, clean code, and the occasional overuse of
+          console.log (for... peace of mind). Fueled by caffeine, curiosity, and
+          way too many open tabs.
         </p>
       </div>
     </section>
