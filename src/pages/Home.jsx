@@ -84,18 +84,26 @@ export default function Home() {
 
       {/* Skills Section */}
       <section>
-        <h2 className="text-3xl font-semibold text-text mb-6">Skills</h2>
-        <div className="flex flex-wrap gap-4">
-          {["React", "JavaScript", "Tailwind CSS", "TypeScript"].map(
-            (skill) => (
-              <span
-                key={skill}
-                className="bg-gray-500 px-4 py-2 rounded-full text-secondary text-sm"
-              >
-                {skill}
-              </span>
-            )
-          )}
+        <h2 className="text-3xl font-semibold text-text text-center mb-6">
+          Skills
+        </h2>
+        <div className="flex flex-wrap gap-4 align-items-center justify-center">
+          {[
+            "React.js",
+            "JavaScript",
+            "Tailwind CSS",
+            "TypeScript",
+            "Node.js",
+            "GraphQL",
+            "Next.js",
+          ].map((skill) => (
+            <span
+              key={skill}
+              className="bg-[#38BDF8] px-4 py-2 rounded-full text-secondary text-sm"
+            >
+              {skill}
+            </span>
+          ))}
         </div>
       </section>
     </>
